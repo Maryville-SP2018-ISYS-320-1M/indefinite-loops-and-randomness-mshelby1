@@ -1,7 +1,7 @@
 /*
 	ISYS 320
-	Name(s):
-	Date: 
+	Name(s): Matthew Shelby
+	Date: 4/22/2018
 */
 
 public class P5_RandomMessageRepeater {

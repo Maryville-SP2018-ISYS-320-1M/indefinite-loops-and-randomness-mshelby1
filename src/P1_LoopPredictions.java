@@ -1,37 +1,37 @@
 /*
 	ISYS 320
-	Name(s):
-	Date: 
+	Name(s): Matthew Shelby
+	Date: 4/22/2018
 */
 
 /*
  How many times do you expect the loop to repeat? Remember that 
- “zero,” “infinity,” and “unknown” are legal answers.
+ zero, infinity, and unknown are legal answers.
  
  What do you expect the loop to output?
  
  (a)
- Repeats:
- Expected output:
+ Repeats: 9 times
+ Expected output: 1 11 21 31 41 51 61 71 81 91
  (b)
- Repeats:
- Expected output:
+ Repeats: 0 times
+ Expected output: nothing
  (c)
- Repeats:
- Expected output:
+ Repeats: Infinite times
+ Expected output: 250 (Repeated infinitely)
  (d)
- Repeats:
- Expected output:
+ Repeats: Unknown
+ Expected output: Unknown
    
  */
 
 /*
  Was your prediction correct?
  
- (a)
- (b)
- (c)
- (d)
+ (a) Yes
+ (b) Yes
+ (c) Yes
+ (d) No
 
 */
 public class P1_LoopPredictions {
@@ -39,9 +39,11 @@ public class P1_LoopPredictions {
 	public static void main(String[] args) {
 		System.out.println("STARTING LOOP TEST");
 		
-		
-		// copy and paste the loop to test between here, between the println statements
-		
+		// d
+		String word = "a";
+		while( word.length() < 10 ) {
+		    word = "b" + word + "b";
+		}
 				
 		System.out.println("ENDING LOOP TEST");
 	}
